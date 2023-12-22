@@ -1,0 +1,82 @@
+html {
+    height: 100%;
+    width: 100%;
+  }
+  body {
+    background-color: lavender;
+    width: 80%;
+  }
+  .gener-btn{
+    width: 100px;
+    background-color: pink;
+    margin: 4px 2px;
+    color : deeppink;
+    border: none;
+    padding: 15px 15px;
+    cursor: pointer;
+    text-align: center;
+    display: inline-block;
+  }
+  .gener-btn:hover{
+    background-color: deeppink;
+    color: pink;
+  }
+  .question{
+    background-color: white;
+    width: 100%;
+    height: 100px;
+    text-align: center;
+    font-size: 20px;
+    
+  }
+  
+  .answer-area{
+    background-color: deeppink;
+    width: 100%;
+    height: 30px;
+    text-align: center;
+    overflow: visible;
+    padding-top: 5px;
+  }
+  
+  .answerTrue {
+    background-color: pink;
+    color: #fffafa;
+    text-align: center;
+    cursor: pointer;
+    overflow: hidden;
+   
+  }
+  .answerFalse {
+    
+    background-color: pink;
+    color: white;
+    text-align: center;
+    cursor: pointer;
+    overflow: hidden;
+  }
+  .submit{
+    border: none;
+    width: 100px;
+    height: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+   
+  }
+  
+  .submit:hover{
+    background-color: black;
+    color: white;
+  }
+  
+  .score-area{
+    background-color: pink;
+    color: white;
+    width: 50%;
+    height: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    
+  }
